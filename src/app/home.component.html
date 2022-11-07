@@ -1,0 +1,22 @@
+<h4>Home Component</h4>
+
+<div class="result">
+  <p>{{ message.brand }}</p>
+  <p>{{ message.category }}</p>
+  <p>{{ message.description }}</p>
+  <p>{{ message.discountPercentage }}</p>
+  <p>{{ message.id }}</p>
+  <div class="grid">
+    <img *ngFor="let img of message.images" src="{{ message.thumbnail }}" />
+  </div>
+  <p>{{ message.price }}</p>
+  <p>{{ message.rating }}</p>
+  <p>{{ message.stock }}</p>
+  <div>
+    <span>{{ message.title }} </span>
+    <img src="{{ message.thumbnail }}" />
+  </div>
+  <div class="message">
+    {{ 'Resolved ' + num + ' time for all cmpts.' }}
+  </div>
+</div>

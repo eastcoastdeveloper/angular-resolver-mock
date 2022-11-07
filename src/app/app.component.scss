@@ -1,0 +1,11 @@
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 50px);
+  grid-column-gap: 10px;
+  color: #313b3f;
+  border-bottom: 1px solid #313b3f;
+  padding-bottom: 5px;
+  span {
+    cursor: pointer;
+  }
+}

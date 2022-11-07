@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+}
+#angular-resolver {
+  font: normal 14px sans-serif;
+  margin: 50px 25px 0 25px;
+}
+.grid {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: repeat(5, calc(20% - 4px));
+}
+img {
+  width: 100%;
+  display: block;
+}
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+p {
+  margin: 0;
+}
+.result {
+  font: normal 12px/20px sans-serif;
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+.result .message {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-style: italic;
+  text-decoration: underline;
+}
+.result > div {
+  max-width: 200px;
+  color: #313b3f;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.website {
+  font: normal 14px sans-serif;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 0;
+  letter-spacing: 0.5px;
+  display: block;
+  cursor: pointer;
+  background-color: #313b3f;
+  padding: 10px;
+  overflow: auto;
+}
+.website a {
+  text-decoration: none;
+  color: #d9a74a;
+  float: right;
+}
+.website span {
+  color: #d9a74a;
+}
